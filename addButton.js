@@ -3,7 +3,7 @@ const buttonAdd = `<div class="lu9bwd" jscontroller="Lg5HHc" jsaction="JIbuQc:EB
 let interval;
 const func = () => {
     const alreadyAdded = document.getElementsByClassName('google-material-icons VfPpkd-kBDsod Cz7ji').length === 2;
-    if (alreadyAdded) return clearInterval(interval);
+    if (alreadyAdded) return;
     const list = document.querySelectorAll('.BLlSHe');
     if (list.length == 1) {
         list[0].insertAdjacentHTML('afterbegin', buttonAdd);
