@@ -1,0 +1,19 @@
+{
+  "name": "Custom background image support (educational google meet)",
+  "description": "Adds button to custom background image (educational google meet)",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.meet.google.com/*"],
+      "js": ["addButton.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Custom background image support (educational google meet)",
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
