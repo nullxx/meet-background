@@ -2,7 +2,7 @@
 Source code of chrome plugin
 
 # How to install
-* Download the lat release from [here](https://github.com/nullxx/meet-background/releases/latest)
+* Download the lastest release from [here](https://github.com/nullxx/meet-background/releases/latest)
 * Unzip it
 * Go to this url: ```chrome://extensions/```
 * Turn develop mode ```on```
